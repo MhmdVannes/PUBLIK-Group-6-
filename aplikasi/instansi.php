@@ -64,7 +64,7 @@ include 'konek.php';
                     </thead>
                     <tbody>
                         <?php
-                        #E1E122004_ANNISA NURFADILAH
+                
 
                             //Muhammad Vannes Al Qadri --->implement polimorpisme
                         class Instansi extends Database implements eksekusiQuery2
