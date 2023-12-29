@@ -75,7 +75,7 @@ include 'konek.php';
                                 parent::__construct();
                             }
 
-                            // Metode untuk mendapatkan semua data dari tabel tb_instansi
+                            // Metode untuk mendapatkan semua data dari tabel tb_instansi yang berasal dari interface eksekusiQuery2 
                             public function getAllInstansi()
                             {
                                 $konek=$this->getKonek(); 
