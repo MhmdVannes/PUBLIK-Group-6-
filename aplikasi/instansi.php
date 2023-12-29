@@ -66,7 +66,8 @@ include 'konek.php';
                         <?php
                         #E1E122004_ANNISA NURFADILAH
 
-                        class Instansi extends Database
+                            //Muhammad Vannes Al Qadri --->implement polimorpisme
+                        class Instansi extends Database implements eksekusiQuery2
                         {
                             // Konstruktor Instansi yang memanggil konstruktor dari kelas induk (Database)
                             public function __construct()

@@ -20,6 +20,20 @@ class userLogin extends Database implements eksekusiQuery//keywords implements a
 
 $login = new userLogin();
 
+//Muhammad Vannes Al Qadri
+class Pengaduan {
+    public $judul, $text;
+
+    public function hapuspengaduan(){
+
+    }
+    public function tambahpengaduan(){
+        
+    }
+}
+
+$hapus = new Pengaduan ();
+$tambah = new Pengaduan ();
 
 if (isset($_POST['btnLogin'])) {
     $nik = $_POST['nik'];

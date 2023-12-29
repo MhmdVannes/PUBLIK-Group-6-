@@ -3,6 +3,13 @@
 interface eksekusiQuery{
     public function Query($parameter);
 }
+
+//Muhammad Vannes Al Qadri ---> Interface Polimorphisme
+interface eksekusiQuery2
+{
+    public function getAllInstansi();
+}
+
 class Database
 {
 
